@@ -1,0 +1,6 @@
+data:
+  raw:
+    final_demo: "../data/raw/df_final_demo.csv"
+    final_web_data_combined: "../data/raw/df_final_web_data_combined.csv"
+    final_experiment_clients : "../data/raw/df_final_experiment_clients.csv"
+  cleaned: "../data/cleaned/WMT_Grocery_202209.csv"
