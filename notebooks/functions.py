@@ -7,6 +7,19 @@ def print_in_red(data):
     print(red_color + data + reset_color)
 
 
+def get_gender_average_balance(df,gender_value,avg_column_name):
+    return df[df['gender'] == gender_value][avg_column_name].mean().round(2)
+
+
+def get_gender_total_number_of_accounts(df,gender_value):
+    return df[df['gender'] == gender_value]['gender'].agg(['count'])
+
+
+def get_number_accounts_above_and_below_average(df, gender_value, avg_column_name, account_column_name):
+    average = get_gender_average_balance(df, gender_value, avg_column_name)
+    return df[ (df['gender']==gender_value) & (df[avg_column_name] > average) ][account_column_name].sum(), df[ (df['gender']==gender_value) & (df[avg_column_name] <= average) ][account_column_name].sum()
+
+
  # Calculate the completion rate
     def calculate_completion_rate(df):
         unique_visits = df['visit_id'].nunique()
