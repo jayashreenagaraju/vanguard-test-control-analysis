@@ -43,3 +43,6 @@ def get_number_accounts_above_and_below_average(df, gender_value, avg_column_nam
         average_time_per_step = df_filtered.groupby('process_step')['time_diff'].mean()
         return average_time_per_step   
 
+# Function to get the furthest step for each user in each session
+def get_furthest_step(group):
+    return group['process_step'].max()
