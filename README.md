@@ -19,4 +19,6 @@ Answered the following questions about demographics:
 
 Performance Metrics and hypothesis testing can be seen in the presentation [here](/slides/Project ppt.pdf)
 
+Tableau file can be found [here](/slides/Tableau.twb)
+
 And for the code you can see the notebook [here](/notebooks/Customer-Experience.ipynb)
