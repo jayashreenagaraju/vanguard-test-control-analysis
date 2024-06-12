@@ -15,10 +15,10 @@ Answered the following questions about demographics:
 * Who are the primary clients using this online process?
 * Are the primary clients younger or older, new or long-standing?
 
-## Performance Metrics
+## Performance Metrics & Hypothesis Testing
 
-Performance Metrics and hypothesis testing can be seen in the presentation [here](/slides/Project ppt.pdf)
+Performance Metrics and hypothesis testing can be seen in the presentation [here](slides/Project ppt.pdf)
 
-Tableau file can be found [here](/slides/Tableau.twb)
+Tableau file can be found [here](slides/Tableau.twb)
 
-And for the code you can see the notebook [here](/notebooks/Customer-Experience.ipynb)
+And for the code you can see the notebook [here](notebooks/Customer-Experience.ipynb)
