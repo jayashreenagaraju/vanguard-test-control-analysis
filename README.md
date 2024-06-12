@@ -17,7 +17,7 @@ Answered the following questions about demographics:
 
 ## Performance Metrics & Hypothesis Testing
 
-Performance Metrics and hypothesis testing can be seen in the presentation [here](slides/Project ppt.pdf)
+Performance Metrics and hypothesis testing can be seen in the presentation [here](slides/ppt.pdf)
 
 Tableau file can be found [here](slides/Tableau.twb)
 
