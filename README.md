@@ -1,4 +1,4 @@
-# Week 5-6 Individual Project
+# Vanguard Test Control Analysis
 
 ## Data sets
 There are three datasets that will guide your journey:
